@@ -15,31 +15,31 @@ const Home = () => {
                <div className="col-7">
                     <div>
                         <span className='fw-bold'>🌐 Connect with Me</span>
-                        <div className="d-flex mb-3">
-                            <div className="p-2"><FaLinkedinIn size={20} color="#0A66C2" /></div>
-                            <div className="p-2"><FaWhatsapp size={20} color="#25D366" /></div>
-                            <div className="p-2"><SiGmail size={20} color="#EA4335" /></div>
-                            <div className="p-2"><FaTelegram size={20} color="#0088cc" /></div>
+                        <div className="d-flex mb-3 justify-content-evenly">
+                            <div className=""><FaLinkedinIn size={20} color="#0A66C2" /></div>
+                            <div className=""><FaWhatsapp size={20} color="#25D366" /></div>
+                            <div className=""><SiGmail size={20} color="#EA4335" /></div>
+                            <div className=""><FaTelegram size={20} color="#0088cc" /></div>
                         </div>
                     </div>
                     <div>
                         <span className='fw-bold'>💻 My Technologies</span>
                         <div className="">
-                            <div className='d-flex align-items-center'>
+                            <div className='d-flex align-items-center justify-content-evenly'>
                                 <span className="">Frontend</span>
-                                <div className="p-2"><FaHtml5 size={20} color="#e34f26" /></div>
-                                <div className="p-2"><FaCss3Alt size={20} color="#1572b6" /></div>
-                                <div className="p-2"><FaJs size={20} color="#f7df1e" /></div>
-                                <div className="p-2"><FaReact size={20} color="#61DBFB" /></div>
-                                <div className="p-2"><FaBootstrap size={20} color="#7952B3" /></div>
+                                <div className=""><FaHtml5 size={20} color="#e34f26" /></div>
+                                <div className=""><FaCss3Alt size={20} color="#1572b6" /></div>
+                                <div className=""><FaJs size={20} color="#f7df1e" /></div>
+                                <div className=""><FaReact size={20} color="#61DBFB" /></div>
+                                <div className=""><FaBootstrap size={20} color="#7952B3" /></div>
                             </div>
-                            <div className='d-flex align-items-center mb-1'>
+                            <div className='d-flex align-items-center mb-1 justify-content-evenly'>
                                 <span className="">Backend</span>
-                                <div className="p-2"><FaJava size={20} color="#f89820" /></div>
-                                <div className="p-2"><SiSpring size={20} color="#6DB33F" /></div>
-                                <div className="p-2"><SiSpringboot size={20} color="#6DB33F" /></div>
-                                <div className="p-2"><SiHibernate size={20} color="#59666C" /></div>
-                                <div className="p-2"><SiMysql size={20} color="#4479A1" /></div>
+                                <div className=""><FaJava size={20} color="#f89820" /></div>
+                                <div className=""><SiSpring size={20} color="#6DB33F" /></div>
+                                <div className=""><SiSpringboot size={20} color="#6DB33F" /></div>
+                                <div className=""><SiHibernate size={20} color="#59666C" /></div>
+                                <div className=""><SiMysql size={20} color="#4479A1" /></div>
                             </div>
                         </div>
                     </div>
