@@ -46,10 +46,10 @@ const Contact = () => {
                     opportunities to be part of your vision. Let’s connect!
                 </p>
                 <ul className="list-unstyled fs-6">
-                    <li class="mb-5"><i class="bi bi-geo-alt-fill text-danger me-2"></i> <span className="rounded-circle p-3 bg-primary text-white me-2 "><FaMapMarkedAlt /></span> Patna, Bihar, India</li>
-                    <li class="mb-5"><i class="bi bi-telephone-fill text-success me-2"></i> <span className="rounded-circle p-3 bg-primary text-white me-2 "><FaPhoneAlt /></span> +91 98765 43210</li>
-                    <li class="mb-5"><i class="bi bi-envelope-fill text-primary me-2"></i> <span className="rounded-circle p-3 bg-primary text-white me-2 "><FaEnvelope /></span> ritesh@example.com</li>
-                    <li class="mb-5"><i class="bi bi-globe text-warning me-2"></i> <span className="rounded-circle p-3 bg-primary text-white me-2 "><FaGlobe /></span> www.riteshportfolio.com</li>
+                    <li class="mb-5"><i class="bi bi-geo-alt-fill text-danger me-2"></i> <span className="rounded-circle p-3 bg-primary text-white me-2 "><FaMapMarkedAlt /></span> Ranchi, Jharkhand, India</li>
+                    <li class="mb-5"><i class="bi bi-telephone-fill text-success me-2"></i> <span className="rounded-circle p-3 bg-primary text-white me-2 "><FaPhoneAlt /></span> +91 70042 70485</li>
+                    <li class="mb-5"><i class="bi bi-envelope-fill text-primary me-2"></i> <span className="rounded-circle p-3 bg-primary text-white me-2 "><FaEnvelope /></span> riteshsony2@gmail.com</li>
+                    <li class="mb-5"><i class="bi bi-globe text-warning me-2"></i> <span className="rounded-circle p-3 bg-primary text-white me-2 "><FaGlobe /></span> riteshxoni.netlify.app/</li>
                 </ul>
             </div>
         </div>
