@@ -10,7 +10,7 @@ const Accordion = ({id,item,skills1,skills2}) =>
                         {item}
                     </button>
                 </div>
-                <div className="accordion-collapse collapse" id={`${id}`}>
+                <div className="accordion-collapse collapse show" id={`${id}`}>
                     <div className="accordion-body">
                         <div className="row align-items-center" >
                             <div className="col-8" style={{maxHeight:500}}>
