@@ -53,12 +53,12 @@ const Portfolio = () => {
   return (
     <div name="Portfolio">
         <div className="display-6 fw-bold my-3 bg-success text-white p-2">📂 Portfolio</div>
-        <div className="row justify-content-evenly">
+        <div className="row justify-content-evenly align-align-items-center">
               {portfolio.map((item,index) => (
-                  <div key={index} className="col-6 col-md-4 col-lg-3 mt-2" style={{minHeight:400,maxHeight:400}}>
-                      <div className='card p-2 text-center' style={{fontSize:'.8rem',minHeight:400,maxHeight:400}}>
+                  <div key={index} className="col-6 col-md-4 col-lg-3 mt-2" style={{minHeight:450,maxHeight:450}}>
+                      <div className='card p-2 text-center' style={{fontSize:'.8rem',minHeight:450,maxHeight:450}}>
                           <img src={item.image} className='img-fluid'/>
-                          <div className="card-body">
+                          <div className="card-body" style={{minHeight:250}}>
                               <h5 className="card-title">{item.title}</h5>
                               <p className="card-text text-justify-custom ">{item.text}</p>
                               <a href={item.link} className='btn btn-primary m-2'>Read More</a>
