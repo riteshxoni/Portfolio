@@ -12,12 +12,12 @@ const About = () => {
                 <tr className="row">
                     <td className="col-4 col-md-3 p-1 fw-bold bg-body-secondary">First Name - </td>
                     <td className="col-8 col-md-3 p-1 col text-secondary">Ritesh</td>
-                    <td className="col-4 col-md-3 p-1 fw-bold bg-body-secondary">Phone - </td>
-                    <td className="col-8 col-md-3 p-1 col text-secondary">7004270485</td>
-                </tr>
-                <tr className="row">
                     <td className="col-4 col-md-3 p-1 fw-bold bg-body-secondary">Last Name - </td>
                     <td className="col-8 col-md-3 p-1 col text-secondary">Soni</td>
+                </tr>
+                <tr className="row">
+                    <td className="col-4 col-md-3 p-1 fw-bold bg-body-secondary">Phone - </td>
+                    <td className="col-8 col-md-3 p-1 col text-secondary">7004270485</td>
                     <td className="col-4 col-md-3 p-1 fw-bold bg-body-secondary">Email - </td>
                     <td className="col-8 col-md-3 p-1 col text-secondary">riteshsony2@gmail.com</td>
                 </tr>
