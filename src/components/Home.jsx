@@ -1,5 +1,5 @@
 import profile from '../../public/profile.png'
-import { FaLinkedinIn, FaWhatsapp, FaTelegram } from "react-icons/fa";
+import { FaLinkedinIn, FaWhatsapp, FaTelegram, FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaDatabase, FaJava } from "react-icons/fa";
 import { SiSpringboot, SiHibernate, SiMysql, SiSpring } from "react-icons/si";
@@ -15,17 +15,18 @@ const Home = () => {
                <div className="col-7">
                     <div>
                         <span className='fw-bold'>🌐 Connect with Me</span>
-                        <div className="d-flex mb-3 justify-content-evenly">
+                        <div className="d-flex mb-3 justify-content-evenly mt-2">
                             <div className=""><FaLinkedinIn size={20} color="#0A66C2" /></div>
                             <div className=""><FaWhatsapp size={20} color="#25D366" /></div>
                             <div className=""><SiGmail size={20} color="#EA4335" /></div>
                             <div className=""><FaTelegram size={20} color="#0088cc" /></div>
+                            <div className=""><FaGithub size={20} color="#333" /></div>
                         </div>
                     </div>
                     <div>
                         <span className='fw-bold'>💻 My Technologies</span>
                         <div className="">
-                            <div className='d-flex align-items-center justify-content-evenly'>
+                            <div className='d-flex align-items-center justify-content-evenly my-2'>
                                 <span className="">Frontend</span>
                                 <div className=""><FaHtml5 size={20} color="#e34f26" /></div>
                                 <div className=""><FaCss3Alt size={20} color="#1572b6" /></div>
@@ -33,7 +34,7 @@ const Home = () => {
                                 <div className=""><FaReact size={20} color="#61DBFB" /></div>
                                 <div className=""><FaBootstrap size={20} color="#7952B3" /></div>
                             </div>
-                            <div className='d-flex align-items-center mb-1 justify-content-evenly'>
+                            <div className='d-flex align-items-center mb-1 justify-content-evenly mb-2'>
                                 <span className="">Backend</span>
                                 <div className=""><FaJava size={20} color="#f89820" /></div>
                                 <div className=""><SiSpring size={20} color="#6DB33F" /></div>

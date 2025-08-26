@@ -48,7 +48,7 @@ const About = () => {
                 </div>
             </div>
              <div className="row py-3">
-                <div className="col-12 col-md-6 fw-bold">Bachelor of Computer Arts</div>
+                <div className="col-12 col-md-6 fw-bold">Bachelor of Arts</div>
                 <div className="col-6 col-md-4">Ranchi Univesity Ranchi - </div>
                 <div className="col-6 col-md-2">2022</div>
                 <div className="container">
