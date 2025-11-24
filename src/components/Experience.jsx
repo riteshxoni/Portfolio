@@ -2,38 +2,35 @@ const Experience = () => {
 
   const experiences = [
   {
-    year: "2023 - 2024",
-    company: "Tech Solutions Pvt. Ltd.",
-    title: "Java Developer Intern",
-    text: "Worked on Core Java and JDBC to develop small modules and debug existing applications.",
+    title: "Full Stack Java Development Intern",
+    company: "Smart Programming, Mohali, Punjab",
+    from: "June 2025",
+    to: "December 2025",
+    text: "Developed three full stack applications (Job Portal, CRM System, Billing Software). Worked on frontend UI, backend integration, REST APIs, and collaborated with clients for requirements.",
     link: "#"
   },
   {
-    year: "2022 - 2023",
-    company: "CodeCrafters Technologies",
-    title: "Full Stack Trainee",
-    text: "Gained hands-on experience in building web apps with Java Spring Boot backend and React frontend.",
+    title: "Full Stack Web Development Intern",
+    company: "Ardent Computech Pvt Ltd",
+    from: "20 May 2024",
+    to: "05 July 2024",
+    text: "Built a full stack E-Commerce web application. Improved skills in frontend development, backend integration, API handling, and real-world client communication.",
     link: "#"
   },
   {
-    year: "2021 - 2022",
-    company: "Innovative Web Labs",
-    title: "Frontend Developer Intern",
-    text: "Created responsive UI using HTML, CSS, Bootstrap, and JavaScript for client projects.",
+    title: "Java Development Intern",
+    company: "TechnoHacks EduTech",
+    from: "23 May 2024",
+    to: "23 June 2024",
+    text: "Worked on Java applications while strengthening OOP concepts and solving real-world coding challenges to improve problem-solving skills.",
     link: "#"
   },
   {
-    year: "2020 - 2021",
-    company: "NextGen IT Services",
-    title: "Backend Developer Trainee",
-    text: "Worked with Hibernate and MySQL to design database models and implement CRUD operations.",
-    link: "#"
-  },
-  {
-    year: "2019 - 2020",
-    company: "Bright Future Solutions",
-    title: "Trainee Software Engineer",
-    text: "Assisted in developing small-scale applications and learned Agile methodologies.",
+    title: "Graphic Designer",
+    company: "ShaktiPolyGlass, Ranchi, Jharkhand",
+    from: "2018",
+    to: "2022",
+    text: "Designed high-quality road and traffic signages used across India. Collaborated with printing & installation teams, delivered precise vector graphics, and managed multiple client projects with consistent quality.",
     link: "#"
   }
 ];
@@ -47,7 +44,7 @@ const Experience = () => {
               experiences.map((data,index)=>(
                 <div key={index} className="col-6 mb-2" style={{minHeight:350}}>
                     <div className="card border-primary" style={{minHeight:350}}>
-                      <h6 className="card-header bg-primary text-white">{data.year}</h6>
+                      <h6 className="card-header bg-primary text-white">{data.from} - {data.to}</h6>
                       <div className="card-body">
                         <h4 className="card-title" style={{minHeight:50}}>{data.company}</h4>
                         <h5 className="card-subtitle mb-2 text-body-secondary" style={{minHeight:50}}>{data.title}</h5>

@@ -56,10 +56,10 @@ const Portfolio = () => {
         <div className="row justify-content-evenly">
               {portfolio.map((item,index) => (
                   <div key={index} className="col-12 col-md-4 col-lg-3 mt-2">
-                      <div className='card p-2 text-center' style={{fontSize:'.8rem',height:500}}>
+                      <div className='card p-2 text-center'>
                           <img src={item.image} className='img-fluid'/>
                           <div className="card-body">
-                              <h5 className="card-title">{item.title}</h5>
+                              <h5 className="card-title five-lines one-lines">{item.title}</h5>
                               <p className="card-text text-justify-custom ">{item.text}</p>
                               <a href={item.link} className='btn btn-primary m-2'>Read More</a>
                           </div>

@@ -1,5 +1,5 @@
 import profile from '../../public/profile.png'
-import cv from '..//../public/RiteshCV.pdf'
+import cv from '..//../public/Ritesh CV.pdf'
 import { FaLinkedinIn, FaWhatsapp, FaTelegram, FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaDatabase, FaJava } from "react-icons/fa";
@@ -91,11 +91,11 @@ const Home = () => {
             <div className='mt-2 border-bottom border-2 pb-3'>
                 <p className='fs-1 m-0' >I'm <span className='fw-bold'>Ritesh Soni</span></p>
                 <ReactTyped
-                    className='display-3 fw-bold text-danger'
-                    strings={["Programmer","Developer","Coder",]}
+                    className='display-6 fw-bold text-danger'
+                    strings={["Full Stack Java Developer"]}
                     typeSpeed={50}
                     backSpeed={60}
-                    loop
+                    // loop
                 >  
                 </ReactTyped>
             </div>  

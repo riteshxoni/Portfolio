@@ -44,3 +44,27 @@
   border-bottom: 1px solid blue;
   box-shadow: none;
 }
+
+.three-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;   /* show only 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.one-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;   /* show only 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.five-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;   /* show only 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
