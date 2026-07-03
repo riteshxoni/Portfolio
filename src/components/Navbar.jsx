@@ -23,10 +23,10 @@ const Navbar = () => {
                 <div className='navbar-nav fs-5 ms-auto'>
                     <Link className='nav-link animate px-3' to="Home" smooth={true} duration={100} offset={-70} activeClass='active'>Home      </Link>
                     <Link className='nav-link animate px-3' to="About" smooth={true} duration={100} offset={-70} activeClass='active'>About     </Link>
-                    <Link className='nav-link animate px-3' to="Portfolio" smooth={true} duration={100} offset={-70} activeClass='active'>Portfolio </Link>
+                    {/* <Link className='nav-link animate px-3' to="Portfolio" smooth={true} duration={100} offset={-70} activeClass='active'>Portfolio </Link> */}
                     <Link className='nav-link animate px-3' to="Skills" smooth={true} duration={100} offset={-70} activeClass='active'>Skills    </Link>
                     <Link className='nav-link animate px-3' to="Projects" smooth={true} duration={100} offset={-70} activeClass='active'>Projects  </Link>
-                    <Link className='nav-link animate px-3' to="Experiance" smooth={true} duration={100} offset={-70} activeClass='active'>Experiance</Link>
+                    {/* <Link className='nav-link animate px-3' to="Experiance" smooth={true} duration={100} offset={-70} activeClass='active'>Experiance</Link> */}
                     <Link className='nav-link animate px-3' to="Contact" smooth={true} duration={100} offset={-70} activeClass='active'>Contact   </Link>
                 </div>
             </div>
