@@ -103,6 +103,7 @@ const Home = () => {
                                  <span className="badge bg-secondary">cPanel</span>
                              </div>
                          </div>
+                    </div>
                </div>
                <div className='row justify-content-evenly mt-3'>
                 <a href={cv} className='btn btn-primary rounded-0 col-4 animate' target='_blank'>Download CV</a>
