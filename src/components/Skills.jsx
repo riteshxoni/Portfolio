@@ -1,15 +1,32 @@
 // Frontend
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap } from "react-icons/fa";
-import { SiJquery } from "react-icons/si";
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaReact,
+  FaBootstrap,
+  FaJava,
+  FaPhp,
+  FaDatabase,
+  FaGitAlt,
+  FaGithub,
+} from "react-icons/fa";
 
-// Backend
-import { FaJava } from "react-icons/fa";
-import { SiSpringboot, SiHibernate, SiMysql } from "react-icons/si";
-import { FaDatabase } from "react-icons/fa";
+import {
+  SiJquery,
+  SiTailwindcss,
+  SiSpringboot,
+  SiHibernate,
+  SiMysql,
+  SiPostman,
+  SiEclipseide,
+  SiIntellijidea,
+  SiApache,
+  SiComposer,
+  SiFilezilla,
+  SiXampp,
+} from "react-icons/si";
 
-// Tools & IDEs
-import { FaGitAlt, FaGithub, FaDocker } from "react-icons/fa";
-import { SiPostman, SiEclipseide, SiIntellijidea } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 //Soft Skills
 import { FaBrain, FaUsers, FaClock, FaComments } from "react-icons/fa";
@@ -18,13 +35,14 @@ import Accordion from "./Accordion";
 
 const Skills = () => {
       const frontend = [
-        { icon: <FaHtml5 size={40} color="#e34f26" />, label: "HTML5", percent: 85, color: "danger" },
-        { icon: <FaCss3Alt size={40} color="#1572b6" />, label: "CSS3", percent: 65, color: "primary" },
-        { icon: <FaJs size={40} color="#f7df1e" />, label: "JavaScript", percent: 70, color: "warning" },
-        { icon: <FaBootstrap size={40} color="#7952B3" />, label: "Bootstrap", percent: 75, color: "secondary" },
-        { icon: <SiJquery size={40} color="#0769ad" />, label: "jQuery", percent: 60, color: "info" },
-        { icon: <FaReact size={40} color="#61DBFB" />, label: "React", percent: 80, color: "info" },
-    ];
+  { icon: <FaHtml5 size={40} color="#E34F26" />, label: "HTML5", percent: 90, color: "danger" },
+  { icon: <FaCss3Alt size={40} color="#1572B6" />, label: "CSS3", percent: 85, color: "primary" },
+  { icon: <FaJs size={40} color="#F7DF1E" />, label: "JavaScript", percent: 85, color: "warning" },
+  { icon: <FaBootstrap size={40} color="#7952B3" />, label: "Bootstrap", percent: 90, color: "secondary" },
+  { icon: <SiTailwindcss size={40} color="#06B6D4" />, label: "Tailwind CSS", percent: 70, color: "info" },
+  { icon: <SiJquery size={40} color="#0769AD" />, label: "AJAX / jQuery", percent: 75, color: "primary" },
+  { icon: <FaReact size={40} color="#61DAFB" />, label: "React JS", percent: 80, color: "info" },
+];
 
     const skills = [
         { label: "HTML5", value: 85,  color: "#e34f26" },
@@ -36,12 +54,13 @@ const Skills = () => {
     ];
 
     const backend = [
-        { icon: <FaJava size={40} color="#007396" />, label: "Core Java", percent: 85, color: "primary" },
-        { icon: <FaJava size={40} color="#e76f00" />, label: "Advanced Java", percent: 75, color: "warning" },
-        { icon: <SiSpringboot size={40} color="#6DB33F" />, label: "Spring", percent: 70, color: "success" },
-        { icon: <SiSpringboot size={40} color="#4CAF50" />, label: "Spring Boot", percent: 80, color: "success" },
-        { icon: <SiHibernate size={40} color="#59666C" />, label: "Hibernate", percent: 65, color: "secondary" },
-    ];
+  { icon: <FaPhp size={40} color="#777BB4" />, label: "PHP", percent: 90, color: "primary" },
+  { icon: <FaJava size={40} color="#F89820" />, label: "Java", percent: 85, color: "warning" },
+  { icon: <SiSpringboot size={40} color="#6DB33F" />, label: "Spring Boot", percent: 80, color: "success" },
+  { icon: <SiHibernate size={40} color="#59666C" />, label: "Hibernate", percent: 75, color: "secondary" },
+  { icon: <FaDatabase size={40} color="#E74C3C" />, label: "REST API", percent: 85, color: "danger" },
+  { icon: <FaDatabase size={40} color="#2980B9" />, label: "Servlet & JSP", percent: 75, color: "primary" },
+];
 
     const backendSkills = [
         { label: "Core Java", value: 85, color: "#007396" },
@@ -52,13 +71,13 @@ const Skills = () => {
     ];
   
     const persistence = [
-    { icon: <SiMysql size={40} color="#00758F" />, label: "MySQL", percent: 80, color: "info" },
-    { icon: <FaDatabase size={40} color="#444" />, label: "JDBC", percent: 70, color: "secondary" },
-    { icon: <FaDatabase size={40} color="#28a745" />, label: "Spring JDBC", percent: 65, color: "success" },
-    { icon: <SiHibernate size={40} color="#59666C" />, label: "Hibernate", percent: 75, color: "warning" },
-    { icon: <FaDatabase size={40} color="#f39c12" />, label: "JPA", percent: 70, color: "primary" },
-    { icon: <FaDatabase size={40} color="#6DB33F" />, label: "Spring Data JPA", percent: 80, color: "success" },
-  ];
+  { icon: <SiMysql size={40} color="#00758F" />, label: "MySQL", percent: 90, color: "info" },
+  { icon: <FaDatabase size={40} color="#444" />, label: "JDBC", percent: 80, color: "secondary" },
+  { icon: <SiHibernate size={40} color="#59666C" />, label: "Hibernate", percent: 75, color: "warning" },
+  { icon: <FaDatabase size={40} color="#F39C12" />, label: "JPA", percent: 75, color: "primary" },
+  { icon: <FaDatabase size={40} color="#16A085" />, label: "SQL", percent: 90, color: "success" },
+  { icon: <FaDatabase size={40} color="#3498DB" />, label: "Database Design", percent: 80, color: "info" },
+];
     const persistenceSkills = [
     { label: "MySQL", value: 80, color: "#00758F" },
     { label: "JDBC", value: 70, color: "#444" },
@@ -70,10 +89,15 @@ const Skills = () => {
 
   const tools = [
   { icon: <FaGitAlt size={40} color="#F1502F" />, label: "Git", percent: 85, color: "danger" },
-  { icon: <FaGithub size={40} color="#000000" />, label: "GitHub", percent: 80, color: "dark" },
-  { icon: <VscVscode size={40} color="#007ACC" />, label: "VS Code", percent: 90, color: "primary" },
-  { icon: <SiEclipseide size={40} color="#2C2255" />, label: "Eclipse IDE", percent: 70, color: "secondary" },
-  { icon: <SiIntellijidea size={40} color="#000000" />, label: "IntelliJ IDEA", percent: 75, color: "dark" },
+  { icon: <FaGithub size={40} />, label: "GitHub", percent: 85, color: "dark" },
+  { icon: <SiPostman size={40} color="#FF6C37" />, label: "Postman", percent: 90, color: "warning" },
+  { icon: <VscVscode size={40} color="#007ACC" />, label: "VS Code", percent: 95, color: "primary" },
+  { icon: <SiEclipseide size={40} color="#2C2255" />, label: "Eclipse", percent: 80, color: "secondary" },
+  { icon: <SiIntellijidea size={40} />, label: "IntelliJ IDEA", percent: 80, color: "dark" },
+  { icon: <SiXampp size={40} color="#FB7A24" />, label: "XAMPP", percent: 90, color: "warning" },
+  { icon: <SiApache size={40} color="#D22128" />, label: "Apache", percent: 80, color: "danger" },
+  { icon: <SiComposer size={40} color="#885630" />, label: "Composer", percent: 75, color: "secondary" },
+  { icon: <SiFilezilla size={40} color="#BF0000" />, label: "FileZilla", percent: 85, color: "danger" },
 ];
 
 const toolsSkills = [
@@ -103,11 +127,40 @@ const softSkillsData = [
   return (
     <div name="Skills">
         <div className="display-6 fw-bold my-3 bg-primary text-white p-2">🔥 Professional Skills</div>
-        <Accordion id={1} item={"HTML5, CSS3, JavaScript, Bootstrap, Jquery, React"} skills1={frontend} skills2={skills}></Accordion>
-        <Accordion id={2} item={"Core Java, Adv Java, Spring, Spring Boot, Hibernate"} skills1={backend} skills2={backendSkills}></Accordion>
-        <Accordion id={3} item={"MySQL, JDBC, Spring JDBC, Hibernate, JPA, Spring Data JPA"} skills1={persistence} skills2={persistenceSkills}></Accordion>
-        <Accordion id={4} item={"Version Control: Git, GitHub, Maven, Apache Tomcat, IntelliJ IDEA, Eclipse, VS Code, etc."} skills1={tools} skills2={toolsSkills}></Accordion>
-        <Accordion id={5} item={"Problem-solving & debugging mindset,Strong communication & teamwork,Time management & adaptability"} skills1={softSkills} skills2={softSkillsData}></Accordion>
+        <Accordion
+    id={1}
+    item={"Frontend Development (HTML5, CSS3, JavaScript, Bootstrap, Tailwind CSS, AJAX, React JS)"}
+    skills1={frontend}
+    skills2={skills}
+/>
+
+<Accordion
+    id={2}
+    item={"Backend Development (PHP, Java, Spring Boot, Hibernate, REST API, Servlet, JSP)"}
+    skills1={backend}
+    skills2={backendSkills}
+/>
+
+<Accordion
+    id={3}
+    item={"Database & Persistence (MySQL, SQL, JDBC, Hibernate, JPA, Database Design)"}
+    skills1={persistence}
+    skills2={persistenceSkills}
+/>
+
+<Accordion
+    id={4}
+    item={"Development Tools (Git, GitHub, Postman, VS Code, Eclipse, IntelliJ, XAMPP, Apache, Composer, FileZilla)"}
+    skills1={tools}
+    skills2={toolsSkills}
+/>
+
+<Accordion
+    id={5}
+    item={"Soft Skills (Problem Solving, Debugging, Communication, Teamwork, Time Management, Adaptability)"}
+    skills1={softSkills}
+    skills2={softSkillsData}
+/>
     </div>
   )
 }
