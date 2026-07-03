@@ -13,7 +13,7 @@ const Accordion = ({id,item,skills1,skills2}) =>
                 <div className="accordion-collapse collapse " id={`${id}`}>
                     <div className="accordion-body">
                         <div className="row align-items-center" >
-                            <div className="col-8" style={{maxHeight:500}}>
+                            <div className="col-8" style={{maxHeight:800}}>
                                 {
                                     skills1.map((skill,index) => (
                                         <div className="my-3" key={index}>
@@ -25,7 +25,7 @@ const Accordion = ({id,item,skills1,skills2}) =>
                                     ))
                                 }
                             </div>
-                            <div className="col-4 mt-4" style={{maxHeight:500}}>
+                            <div className="col-4 mt-4" style={{maxHeight:800}}>
                                 <div className="container">
                                     {skills2.map((skill, index) => (<ProgressCircle key={index} value={skill.value} color={skill.color}/>))}
                                 </div>
