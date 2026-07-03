@@ -92,23 +92,75 @@ const About = () => {
       </div>
 
       <div className="display-6 fw-bold my-3 bg-primary text-white p-2">
-        💼 Internship
-      </div>
+  💼 Experience
+</div>
 
-      <div className="container my-3 shadow-lg border p-3">
-        <h5 className="fw-bold">Academy of Skill Development</h5>
-        <p className="mb-1">
-          <strong>Intern</strong> (Dec 2025 – May 2026)
-        </p>
+{/* Academy of Skill Development */}
+<div className="container my-3 shadow-lg border p-3">
+  <h5 className="fw-bold">Academy of Skill Development</h5>
+  <p className="mb-2">
+    <strong>Full Stack Development Intern</strong> | Dec 2025 – May 2026
+  </p>
 
-        <ul className="text-secondary">
-          <li>Developed backend applications using PHP and Java.</li>
-          <li>Built REST APIs and authentication systems.</li>
-          <li>Worked with MySQL databases.</li>
-          <li>Fixed bugs and improved application performance.</li>
-          <li>Collaborated with the development team.</li>
-        </ul>
-      </div>
+  <ul className="text-secondary mb-0">
+    <li>Developed backend applications using PHP and Java.</li>
+    <li>Built REST APIs and authentication systems.</li>
+    <li>Worked with MySQL databases.</li>
+    <li>Fixed production bugs and developed reusable modules.</li>
+    <li>Performed deployment and application maintenance.</li>
+    <li>Tested APIs using Postman.</li>
+  </ul>
+</div>
+
+{/* Smart Programming */}
+<div className="container my-3 shadow-lg border p-3">
+  <h5 className="fw-bold">Smart Programming</h5>
+  <p className="mb-2">
+    <strong>Java Backend Intern</strong> | Jun 2025 – Nov 2025
+  </p>
+
+  <ul className="text-secondary mb-0">
+    <li>Developed Spring Boot applications.</li>
+    <li>Worked with Hibernate and JPA.</li>
+    <li>Created CRUD modules.</li>
+    <li>Designed REST APIs.</li>
+    <li>Integrated MySQL database.</li>
+    <li>Implemented backend business logic.</li>
+    <li>Debugged and optimized applications.</li>
+  </ul>
+</div>
+
+{/* Ardent Computech */}
+<div className="container my-3 shadow-lg border p-3">
+  <h5 className="fw-bold">Ardent Computech Pvt. Ltd.</h5>
+  <p className="mb-2">
+    <strong>PHP Developer Intern</strong> | Jun 2024 – Jul 2024
+  </p>
+
+  <ul className="text-secondary mb-0">
+    <li>Developed PHP web applications.</li>
+    <li>Built responsive user interfaces.</li>
+    <li>Worked with AJAX and MySQL integration.</li>
+    <li>Fixed application bugs.</li>
+    <li>Assisted in deployment and maintenance.</li>
+  </ul>
+</div>
+
+{/* Shakti Poly Glass */}
+<div className="container my-3 shadow-lg border p-3">
+  <h5 className="fw-bold">Shakti Poly Glass</h5>
+  <p className="mb-2">
+    <strong>IT Support & Graphic Designer</strong> | May 2019 – Apr 2022
+  </p>
+
+  <ul className="text-secondary mb-0">
+    <li>Installed and troubleshot Windows operating systems.</li>
+    <li>Resolved hardware, software, printer, and network issues.</li>
+    <li>Installed drivers and configured computer systems.</li>
+    <li>Provided technical support to end users.</li>
+    <li>Designed banners, visiting cards, and road sign graphics.</li>
+  </ul>
+</div>
 
       <div className="display-6 fw-bold my-3 bg-primary text-white p-2">
         🎓 Education
