@@ -57,25 +57,52 @@ const Home = () => {
                     </div>
                     <div>
                         <span className='fw-bold'>💻 My Technologies</span>
-                        <div className="">
-                            <div className='d-flex align-items-center justify-content-evenly my-2'>
-                                <span className="">Frontend</span>
-                                <div className=""><FaHtml5 size={20} color="#e34f26" /></div>
-                                <div className=""><FaCss3Alt size={20} color="#1572b6" /></div>
-                                <div className=""><FaJs size={20} color="#f7df1e" /></div>
-                                <div className=""><FaReact size={20} color="#61DBFB" /></div>
-                                <div className=""><FaBootstrap size={20} color="#7952B3" /></div>
-                            </div>
-                            <div className='d-flex align-items-center mb-1 justify-content-evenly mb-2'>
-                                <span className="">Backend</span>
-                                <div className=""><FaJava size={20} color="#f89820" /></div>
-                                <div className=""><SiSpring size={20} color="#6DB33F" /></div>
-                                <div className=""><SiSpringboot size={20} color="#6DB33F" /></div>
-                                <div className=""><SiHibernate size={20} color="#59666C" /></div>
-                                <div className=""><SiMysql size={20} color="#4479A1" /></div>
-                            </div>
-                        </div>
-                    </div>
+                        <div>
+                             {/* Frontend */}
+                             <div className='d-flex align-items-center justify-content-evenly my-2 flex-wrap gap-2'>
+                                 <span className='fw-semibold'>Frontend</span>
+                         
+                                 <FaHtml5 title="HTML5" size={20} color="#E34F26" />
+                                 <FaCss3Alt title="CSS3" size={20} color="#1572B6" />
+                                 <FaJs title="JavaScript" size={20} color="#F7DF1E" />
+                                 <FaReact title="React JS" size={20} color="#61DAFB" />
+                                 <FaBootstrap title="Bootstrap" size={20} color="#7952B3" />
+                         
+                                 <span className="badge bg-info text-dark">Tailwind</span>
+                                 <span className="badge bg-primary">AJAX</span>
+                             </div>
+                         
+                             {/* Backend */}
+                             <div className='d-flex align-items-center justify-content-evenly my-2 flex-wrap gap-2'>
+                                 <span className='fw-semibold'>Backend</span>
+                         
+                                 <span className="badge bg-primary">PHP</span>
+                                 <FaJava title="Java" size={20} color="#F89820" />
+                                 <SiSpringboot title="Spring Boot" size={20} color="#6DB33F" />
+                                 <SiSpring title="Spring" size={20} color="#6DB33F" />
+                                 <SiHibernate title="Hibernate" size={20} color="#59666C" />
+                                 <SiMysql title="MySQL" size={20} color="#4479A1" />
+                         
+                                 <span className="badge bg-success">JPA</span>
+                                 <span className="badge bg-dark">JSP</span>
+                                 <span className="badge bg-secondary">Servlet</span>
+                                 <span className="badge bg-danger">REST API</span>
+                             </div>
+                         
+                             {/* Tools */}
+                             <div className='d-flex align-items-center justify-content-evenly my-2 flex-wrap gap-2'>
+                                 <span className='fw-semibold'>Tools</span>
+                         
+                                 <span className="badge bg-dark">Git</span>
+                                 <span className="badge bg-secondary">GitHub</span>
+                                 <span className="badge bg-success">Postman</span>
+                                 <span className="badge bg-primary">VS Code</span>
+                                 <span className="badge bg-warning text-dark">IntelliJ</span>
+                                 <span className="badge bg-info text-dark">Eclipse</span>
+                                 <span className="badge bg-danger">XAMPP</span>
+                                 <span className="badge bg-secondary">cPanel</span>
+                             </div>
+                         </div>
                </div>
                <div className='row justify-content-evenly mt-3'>
                 <a href={cv} className='btn btn-primary rounded-0 col-4 animate' target='_blank'>Download CV</a>
@@ -86,20 +113,39 @@ const Home = () => {
         </div>
         <div className="col-12 col-lg-6">
             <div className="chat-bubble">
-                HELLO
+                👋 Welcome
             </div>
             <div className='mt-2 border-bottom border-2 pb-3'>
-                <p className='fs-1 m-0' >I'm <span className='fw-bold'>Ritesh Soni</span></p>
+                <p className='fs-1 m-0'>
+                 I'm <span className='fw-bold'>Ritesh Kumar Soni</span>
+               </p>
                 <ReactTyped
                     className='display-6 fw-bold text-danger'
-                    strings={["Full Stack Java Developer"]}
+                    strings={[
+                      "Full Stack Developer",
+                      "PHP Developer",
+                      "Java Developer",
+                      "Backend Developer",
+                      "Open to Any IT Role"
+                    ]}
+                    loop
                     typeSpeed={50}
                     backSpeed={60}
                     // loop
                 >  
                 </ReactTyped>
             </div>  
-            <p className='mt-2 text-justify-custom'>Seeking a position as a Java Full Stack Developer in a growth-oriented company where I can apply my knowledge of frontend (React.js, HTML, CSS, JavaScript) and backend (Java, Spring Boot, Hibernate, MySQL) to build scalable applications, while continuously learning and improving my technical and problem-solving skills.</p>
+            <p className='mt-2 text-justify-custom'>
+               Recent BCA graduate with a strong foundation in PHP, Java, SQL, and Web Development. Experienced through multiple internships in developing backend applications, REST APIs, authentication systems, Spring Boot applications, PHP projects, and MySQL databases. Seeking a Full Stack Developer position or any related role in the IT sector where I can contribute to innovative software solutions while continuously enhancing my technical skills.
+            </p> 
+             <div className="mt-3">
+              <span className="badge bg-primary me-2">3 Internships</span>
+              <span className="badge bg-success me-2">PHP</span>
+              <span className="badge bg-danger me-2">Java</span>
+              <span className="badge bg-warning text-dark me-2">Spring Boot</span>
+              <span className="badge bg-info text-dark me-2">React JS</span>
+              <span className="badge bg-dark">MySQL</span>
+          </div>
         </div>
         <div className="modal mt-5 fade" id='showContact'>
             <div className="modal-dialog">
