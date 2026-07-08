@@ -127,7 +127,7 @@ const About = () => {
   <a
       href="/SP OfferLetter.pdf"
       download
-      className="btn btn-primary btn-sm"
+      className="btn btn-primary btn-sm me-3"
     >
       📄 Download Offer Letter
     </a>
