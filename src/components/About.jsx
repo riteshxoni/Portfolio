@@ -102,7 +102,7 @@ const About = () => {
     <strong>Full Stack Development Intern</strong> | Dec 2025 – May 2026
   </p>
 <a
-      href="/certificates/academy-of-skill-development.pdf"
+      href="/ASD.pdf"
       download
       className="btn btn-primary btn-sm"
     >
@@ -124,8 +124,15 @@ const About = () => {
   <p className="mb-2">
     <strong>Java Backend Intern</strong> | Jun 2025 – Nov 2025
   </p>
+  <a
+      href="/SP OfferLetter.pdf"
+      download
+      className="btn btn-primary btn-sm"
+    >
+      📄 Download Offer Letter
+    </a>
 <a
-      href="/certificates/academy-of-skill-development.pdf"
+      href="/SmartProgramming.pdf"
       download
       className="btn btn-primary btn-sm"
     >
@@ -149,7 +156,7 @@ const About = () => {
     <strong>PHP Developer Intern</strong> | Jun 2024 – Jul 2024
   </p>
 <a
-      href="/certificates/academy-of-skill-development.pdf"
+      href="/ARDENT.pdf"
       download
       className="btn btn-primary btn-sm"
     >
