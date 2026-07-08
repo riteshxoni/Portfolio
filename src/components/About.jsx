@@ -101,7 +101,13 @@ const About = () => {
   <p className="mb-2">
     <strong>Full Stack Development Intern</strong> | Dec 2025 – May 2026
   </p>
-
+<a
+      href="/certificates/academy-of-skill-development.pdf"
+      download
+      className="btn btn-primary btn-sm"
+    >
+      📄 Download Certificate
+    </a>
   <ul className="text-secondary mb-0">
     <li>Developed backend applications using PHP and Java.</li>
     <li>Built REST APIs and authentication systems.</li>
@@ -118,7 +124,13 @@ const About = () => {
   <p className="mb-2">
     <strong>Java Backend Intern</strong> | Jun 2025 – Nov 2025
   </p>
-
+<a
+      href="/certificates/academy-of-skill-development.pdf"
+      download
+      className="btn btn-primary btn-sm"
+    >
+      📄 Download Certificate
+    </a>
   <ul className="text-secondary mb-0">
     <li>Developed Spring Boot applications.</li>
     <li>Worked with Hibernate and JPA.</li>
@@ -136,7 +148,13 @@ const About = () => {
   <p className="mb-2">
     <strong>PHP Developer Intern</strong> | Jun 2024 – Jul 2024
   </p>
-
+<a
+      href="/certificates/academy-of-skill-development.pdf"
+      download
+      className="btn btn-primary btn-sm"
+    >
+      📄 Download Certificate
+    </a>
   <ul className="text-secondary mb-0">
     <li>Developed PHP web applications.</li>
     <li>Built responsive user interfaces.</li>
@@ -152,7 +170,13 @@ const About = () => {
   <p className="mb-2">
     <strong>IT Support & Graphic Designer</strong> | May 2019 – Apr 2022
   </p>
-
+<a
+      href="/certificates/academy-of-skill-development.pdf"
+      download
+      className="btn btn-primary btn-sm"
+    >
+      📄 Download Certificate
+    </a>
   <ul className="text-secondary mb-0">
     <li>Installed and troubleshot Windows operating systems.</li>
     <li>Resolved hardware, software, printer, and network issues.</li>
