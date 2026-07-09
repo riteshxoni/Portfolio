@@ -175,21 +175,24 @@ const About = () => {
 <div className="container my-3 shadow-lg border p-3">
   <h5 className="fw-bold">Shakti Poly Glass</h5>
   <p className="mb-2">
-    <strong>IT Support & Graphic Designer</strong> | May 2019 – Apr 2022
+    <strong>Web Developer & IT Support Engineer</strong> | May 2019 – Apr 2022
   </p>
-<a
-      href="/certificates/academy-of-skill-development.pdf"
-      download
-      className="btn btn-primary btn-sm"
-    >
-      📄 Download Certificate
-    </a>
-  <ul className="text-secondary mb-0">
+
+  <a
+    href="/certificates/shakti-poly-glass-experience-certificate.pdf"
+    download
+    className="btn btn-primary btn-sm"
+  >
+    📄 Download Certificate
+  </a>
+
+  <ul className="text-secondary mb-0 mt-3">
+    <li>Developed, maintained, and updated the company's official website.</li>
+    <li>Implemented new website features and resolved technical issues to improve functionality.</li>
     <li>Installed and troubleshot Windows operating systems.</li>
-    <li>Resolved hardware, software, printer, and network issues.</li>
-    <li>Installed drivers and configured computer systems.</li>
-    <li>Provided technical support to end users.</li>
-    <li>Designed banners, visiting cards, and road sign graphics.</li>
+    <li>Diagnosed and resolved hardware, software, printer, plotter, and network issues.</li>
+    <li>Installed and configured software, device drivers, and IT equipment.</li>
+    <li>Provided technical support to employees and ensured smooth IT operations.</li>
   </ul>
 </div>
 
