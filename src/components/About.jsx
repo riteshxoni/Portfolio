@@ -179,7 +179,7 @@ const About = () => {
   </p>
 
   <a
-    href="/certificates/shakti-poly-glass-experience-certificate.pdf"
+    href="https://drive.google.com/drive/folders/1Ei5jnftMNUKaYxMs1mxjKHJhSqqtUJ_u?usp=sharing"
     download
     className="btn btn-primary btn-sm"
   >
